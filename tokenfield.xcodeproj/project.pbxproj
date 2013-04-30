@@ -26,6 +26,10 @@
 		24DD6CFA1134B3F500162E58 /* ComTiTokenfieldModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComTiTokenfieldModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m */; };
+		98D38F6F172FF3AA007B8D25 /* Names.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D38F6B172FF3AA007B8D25 /* Names.h */; };
+		98D38F70172FF3AA007B8D25 /* Names.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D38F6C172FF3AA007B8D25 /* Names.m */; };
+		98D38F71172FF3AA007B8D25 /* TITokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D38F6D172FF3AA007B8D25 /* TITokenField.h */; };
+		98D38F72172FF3AA007B8D25 /* TITokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D38F6E172FF3AA007B8D25 /* TITokenField.m */; };
 		AA747D9F0F9514B9006C5449 /* ComTiTokenfield_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComTiTokenfield_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -36,19 +40,23 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "tokenfield";
+			remoteInfo = tokenfield;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComTiTokenfieldModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComTiTokenfieldModule.h"; path = "Classes/ComTiTokenfieldModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComTiTokenfieldModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComTiTokenfieldModule.m"; path = "Classes/ComTiTokenfieldModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComTiTokenfieldModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComTiTokenfieldModule.h; path = Classes/ComTiTokenfieldModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComTiTokenfieldModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComTiTokenfieldModule.m; path = Classes/ComTiTokenfieldModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComTiTokenfieldModuleAssets.h"; path = "Classes/ComTiTokenfieldModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComTiTokenfieldModuleAssets.m"; path = "Classes/ComTiTokenfieldModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComTiTokenfield_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComTiTokenfield_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComTiTokenfieldModuleAssets.h; path = Classes/ComTiTokenfieldModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComTiTokenfieldModuleAssets.m; path = Classes/ComTiTokenfieldModuleAssets.m; sourceTree = "<group>"; };
+		98D38F6B172FF3AA007B8D25 /* Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Names.h; path = Classes/Names.h; sourceTree = "<group>"; };
+		98D38F6C172FF3AA007B8D25 /* Names.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Names.m; path = Classes/Names.m; sourceTree = "<group>"; };
+		98D38F6D172FF3AA007B8D25 /* TITokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TITokenField.h; path = Classes/TITokenField.h; sourceTree = "<group>"; };
+		98D38F6E172FF3AA007B8D25 /* TITokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TITokenField.m; path = Classes/TITokenField.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComTiTokenfield_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComTiTokenfield_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComTiTokenfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComTiTokenfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComTiTokenfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComTiTokenfield.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "tokenfield";
+			name = tokenfield;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -93,6 +101,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				98D38F6B172FF3AA007B8D25 /* Names.h */,
+				98D38F6C172FF3AA007B8D25 /* Names.m */,
+				98D38F6D172FF3AA007B8D25 /* TITokenField.h */,
+				98D38F6E172FF3AA007B8D25 /* TITokenField.m */,
 				24DE9E0F11C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComTiTokenfieldModule.h */,
@@ -120,6 +132,8 @@
 				AA747D9F0F9514B9006C5449 /* ComTiTokenfield_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComTiTokenfieldModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.h in Headers */,
+				98D38F6F172FF3AA007B8D25 /* Names.h in Headers */,
+				98D38F71172FF3AA007B8D25 /* TITokenField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +152,8 @@
 			);
 			dependencies = (
 			);
-			name = "tokenfield";
-			productName = "tokenfield";
+			name = tokenfield;
+			productName = tokenfield;
 			productReference = D2AAC07E0554694100DB518D /* libComTiTokenfield.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -192,6 +206,8 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* ComTiTokenfieldModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComTiTokenfieldModuleAssets.m in Sources */,
+				98D38F70172FF3AA007B8D25 /* Names.m in Sources */,
+				98D38F72172FF3AA007B8D25 /* TITokenField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,11 +228,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComTiTokenfield.dst";
+				DSTROOT = /tmp/ComTiTokenfield.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTiTokenfield_Prefix.pch";
+				GCC_PREFIX_HEADER = ComTiTokenfield_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -235,7 +251,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComTiTokenfield";
+				PRODUCT_NAME = ComTiTokenfield;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -249,11 +265,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/ComTiTokenfield.dst";
+				DSTROOT = /tmp/ComTiTokenfield.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTiTokenfield_Prefix.pch";
+				GCC_PREFIX_HEADER = ComTiTokenfield_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -270,7 +286,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComTiTokenfield";
+				PRODUCT_NAME = ComTiTokenfield;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -283,11 +299,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComTiTokenfield.dst";
+				DSTROOT = /tmp/ComTiTokenfield.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTiTokenfield_Prefix.pch";
+				GCC_PREFIX_HEADER = ComTiTokenfield_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -305,7 +321,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComTiTokenfield";
+				PRODUCT_NAME = ComTiTokenfield;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -319,11 +335,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/ComTiTokenfield.dst";
+				DSTROOT = /tmp/ComTiTokenfield.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTiTokenfield_Prefix.pch";
+				GCC_PREFIX_HEADER = ComTiTokenfield_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -339,7 +355,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComTiTokenfield";
+				PRODUCT_NAME = ComTiTokenfield;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
