@@ -6,34 +6,19 @@
 
 // open a single window
 var win = Ti.UI.createWindow({
-	backgroundColor:'white'
+    backgroundColor: 'white'
 });
-var label = Ti.UI.createLabel();
-win.add(label);
 win.open();
 
-// TODO: write your module tests here
-var tokenfield = require('com.ti.tokenfield');
-Ti.API.info("module is => " + tokenfield);
+var TF = require('com.ti.tokenfield');
 
-label.text = tokenfield.example();
+var tf = TF.createView({
+    top:0,
+    height: 30,
+    width: Ti.UI.FILL
+});
+win.add(tf);
 
-Ti.API.info("module exampleProp is => " + tokenfield.exampleProp);
-tokenfield.exampleProp = "This is a test value";
+//tf.setColor('blue');
 
-if (Ti.Platform.name == "android") {
-	var proxy = tokenfield.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
 
